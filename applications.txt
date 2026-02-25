@@ -1,0 +1,20 @@
+[pacman]
+btop
+cheese # webcam capture
+dunst # notification daemon
+fcitx5
+fcitx5-chinese-addons
+fcitx5-qt
+flameshot # screen shot tool
+keepassxc # password manager
+openrgb # lighting config
+rofi # application launcher
+steam
+ttf-hack-nerd
+ttf-space-mono-nerd
+waybar
+
+[yay]
+brave-bin
+iwdgui # network manager gui
+visual-studio-code-bin
