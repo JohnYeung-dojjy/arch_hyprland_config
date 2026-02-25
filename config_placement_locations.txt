@@ -1,0 +1,5 @@
+[~/.local/share/applications]
+share_applications
+
+[~/.config]
+config
