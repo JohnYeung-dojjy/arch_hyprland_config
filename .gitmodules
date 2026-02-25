@@ -1,0 +1,3 @@
+[submodule "config/waybar"]
+	path = config/waybar
+	url = https://github.com/JohnYeung-dojjy/waybar.git
