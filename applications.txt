@@ -5,7 +5,9 @@ dunst # notification daemon
 fcitx5
 fcitx5-chinese-addons
 fcitx5-qt
+fcitx5-table-extra
 flameshot # screen shot tool
+hyprpolkitagent
 keepassxc # password manager
 openrgb # lighting config
 rofi # application launcher
