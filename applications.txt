@@ -1,5 +1,6 @@
 [pacman]
 btop
+blueman # bluetooth
 cheese # webcam capture
 dunst # notification daemon
 fcitx5
@@ -15,8 +16,12 @@ steam
 ttf-hack-nerd
 ttf-space-mono-nerd
 waybar
+xdg-desktop-portal-gtk
 
 [yay]
 brave-bin
 iwdgui # network manager gui
+iwgtk # network manager gui, somehow iwdgui is not working, also this looks better
+miniconda3
 visual-studio-code-bin
+winboat
