@@ -1,6 +1,6 @@
 [pacman]
-btop
 blueman # bluetooth
+btop
 cheese # webcam capture
 dunst # notification daemon
 fcitx5
@@ -15,6 +15,7 @@ rofi # application launcher
 steam
 ttf-hack-nerd
 ttf-space-mono-nerd
+udiskie
 waybar
 xdg-desktop-portal-gtk
 
