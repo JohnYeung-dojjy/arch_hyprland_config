@@ -41,8 +41,8 @@ for i = 1, 10 do
     hl.bind(mainMod .. " + SHIFT + " .. key, hl.dsp.window.move({ workspace = i }))
 end
 
-hl.bind(mainMod .. " + SHIFT + comma", hl.dsp.layout("colresize -0.1"))
-hl.bind(mainMod .. " + SHIFT + period", hl.dsp.layout("colresize +0.1"))
+hl.bind(mainMod .. " + SHIFT + left", hl.dsp.layout("colresize -0.1"))
+hl.bind(mainMod .. " + SHIFT + right", hl.dsp.layout("colresize +0.1"))
 
 hl.bind(mainMod .. " + bracketleft", hl.dsp.layout("swapcol l"))
 hl.bind(mainMod .. " + bracketright", hl.dsp.layout("swapcol r"))
