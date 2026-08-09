@@ -50,6 +50,13 @@ hl.window_rule({
     float = true,
 })
 
+-- Noctalia Settings
+hl.window_rule({
+    match = { class = "dev.noctalia.Noctalia" },
+    float = true,
+    size = { 1080, 920 },
+})
+
 -- https://github.com/flameshot-org/flameshot/blob/master/docs/UsageHyprlandSwayWlroots.md
 hl.window_rule({
     match     = { class = "flameshot" },
