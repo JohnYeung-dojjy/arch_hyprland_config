@@ -8,3 +8,5 @@ source /usr/share/cachyos-fish-config/cachyos-config.fish
 
 alias gst="git status"
 alias gl="git log --oneline --graph --decorate --all"
+
+set -gx TERM "xterm-256color"
