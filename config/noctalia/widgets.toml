@@ -1,0 +1,59 @@
+
+[widget.workspaces]
+style = "focus_hint"       # regular | minimal | focus_hint
+show_labels = false      # false = unlabeled pills (Focus Hint: app icon only), somehow not working
+label_source = "id"     # id | name
+max_label_chars = 2     # truncate long workspace names (e.g. "VESKTOP" → "VE")
+labels_only_when_occupied = true  # (1) (2*) ( ) (4) - occupied tags and the active tag show labels (*active but empty)
+hide_when_empty = true
+pill_scale = 1.0
+active_pill_size = 1.5
+inactive_pill_size = 1.0
+focused_color = "primary"
+occupied_color = "secondary"
+empty_color = "surface_variant"
+urgent_color = "error"
+change_color_on_hover = false  # false = keep configured workspace colors while hovering
+focused_output_only = false  # true = only the focused monitor highlights its active workspace
+
+# ── Desktop Widgets ───────────────────────────────────────────────────────────
+
+[desktop_widgets]
+enabled = false
+# When set, widget_order is the active widget list and stacking order.
+# widget_order = ["clock_main"]
+
+# [desktop_widgets.grid]
+# visible        = true
+# cell_size      = 16
+# major_interval        = 4
+# center_guides_visible = false
+# snap_to_center        = true
+
+# [desktop_widgets.widget.clock_main]
+# type     = "clock"
+# output   = "DP-1"
+# cx       = 960.0
+# cy       = 540.0
+# scale    = 1.5
+# rotation = 0.0
+
+# [desktop_widgets.widget.clock_main.settings]
+# format = "{:%H:%M}"
+# background_opacity = 0.8
+
+# [lockscreen_widgets]
+# enabled = false
+# widget_order = ["clock_main"]
+
+# [lockscreen_widgets.widget.clock_main]
+# type     = "clock"
+# output   = "DP-1"
+# cx       = 1600.0
+# cy       = 120.0
+# scale    = 1.5
+# rotation = 0.0
+
+# [lockscreen_widgets.widget.clock_main.settings]
+# format = "{:%H:%M}"
+# background_opacity = 0.8
