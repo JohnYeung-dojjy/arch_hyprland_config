@@ -4,7 +4,6 @@ blueman # bluetooth
 btop
 cachyos-hypr-noctalia
 cheese # webcam capture
-dunst # notification daemon
 fcitx5
 fcitx5-chinese-addons
 fcitx5-qt
@@ -15,23 +14,19 @@ keepassxc # password manager
 kservice5 # fix dolphin set default application in hyprland
 noctalia-greeter
 openrgb # lighting config
-rofi # application launcher
 steam
 ttf-hack-nerd
 ttf-space-mono-nerd
 udiskie
-waybar # to be removed
 xdg-desktop-portal-gtk
 zed # code editor written in rust
 
 [yay]
-ashell
 brave-bin # to be removed
 brave-origin-bin
 hyprland-preview-share-picker-git
 iwdgui # network manager gui
 iwgtk # network manager gui, somehow iwdgui is not working, also this looks better
 miniconda3
-quickshell-git # to be removed
 visual-studio-code-bin
 winboat

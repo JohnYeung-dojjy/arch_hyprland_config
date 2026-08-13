@@ -1,9 +1,3 @@
-[submodule "config/waybar"]
-	path = config/waybar
-	url = https://github.com/JohnYeung-dojjy/waybar.git
-[submodule "config/quickshell"]
-	path = config/quickshell
-	url = https://github.com/cfyeung-dojjy/quickshell.git
 [submodule "config/hypr/virtual_desktops"]
 	path = config/hypr/virtual_desktops
 	url = https://github.com/cfyeung-dojjy/hyprland_virtual_desktops_lua.git
